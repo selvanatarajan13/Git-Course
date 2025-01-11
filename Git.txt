@@ -56,7 +56,5 @@ otherwise, else you don't connect then using the following cmd,
 after connect just execute the following cmd,
 -> git push -u origin main
 
-Mahendran..
-
 
 
