@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+				         		Git
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Version Control System
+What is VCS?
+	- VCS is a system that keep the records changes to a file or set of files over times so that you can recall specific versions later if you want.
+	This is called Version Control System.
+	- And it helps to manage code or other document content changes over time.
+	- It's categories in three different ways. There are,
+		- Local Version Control System,
+		- Centralized VCS,
+		- Distributed VCS.
+
+If you want to remove the git folder using git command, the command is
+	-> git rm -r filename
+
+-> git init - initialize the git.
+What is git initialize and why we do it?
+
+-> git status - it checks what changes you have made to your code and identify files that need to be added or removed from the repository.
+Why we check the git status and what are the use?
+
+-> git add 'filename' - this command is used to stage a file for the next commit.
+What is add command and when will use it?
+
+-> git commit -m 'write the message what you made on it' - This command is used to commit changes to your git repository with a meaningful 					              			- message.
+Explain the commit command and why we write the message?
+
+if you want to skip the staging area, write the code
+-> git commit -a -m 'write the message what you made on it' - -a this is option tells git to automatically stage all changes, including modified and deleted files, without needing to run 'git add'.
+
+
+next command is 'Diff':
+	This command is help to find what we made the changes. This command is work only before the staging the code. Otherwise, mean after staging your code into local repo and then you can't using the command. It doesn't provide any data. 
+	If you want to see that change even after staging your code, you can use the following commad to see that what you made that change.
+-> git diff --staged
+
+how to remove file from git repository?
+first, remove the local git repo using the following cmd.
+-> git rm --cached filename
+after remove successfull, then you can delete that file in your working directory if you want.
+
+If you want copying some other repository, you can use the following cmd that will help the project without need download any zip file.
+before clone the git repository, you first copying the git repository URL or SSH or Github CLI. after you can using the following cmd what you want to do as mentioned above.
+-> git clone 'git repository URL what you clone the repo'
+
+
+
