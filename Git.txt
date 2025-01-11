@@ -45,5 +45,17 @@ If you want copying some other repository, you can use the following cmd that wi
 before clone the git repository, you first copying the git repository URL or SSH or Github CLI. after you can using the following cmd what you want to do as mentioned above.
 -> git clone 'git repository URL what you clone the repo'
 
+If you want to push your code local repo into remote repo, then execute the following code,
+before, upload your code into remote repo, first ensure, have you connect the remote repo already If you don't connect execute following code.
+To check have you already connect the git repo, just run the following code,
+-> git remote -v
+If you already connect the repo, then just push your code using cmd,
+-> git push
+otherwise, else you don't connect then using the following cmd,
+-> git remote add origin "your repo link either HTTPS or SSH",
+after connect just execute the following cmd,
+-> git push -u origin main
+
+
 
 
