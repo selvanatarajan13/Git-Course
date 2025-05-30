@@ -60,3 +60,5 @@ after connect just execute the following cmd,
 2) Selvanatarajan
 3) Selvanatarajan Mahendran
 4) Karthikka Devi
+
+Pull:-> Get the latest changes from the repo to your local copy.
