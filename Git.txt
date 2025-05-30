@@ -61,4 +61,9 @@ after connect just execute the following cmd,
 3) Selvanatarajan Mahendran
 4) Karthikka Devi
 
-Pull:-> Get the latest changes from the repo to your local copy.
+Get the latest changes from the repo to your local copy.
+
+Name: Selvanatarajan Mahendran.
+Email: selvanatarajan13@gmail.com.
+
+Now, I'm excercise tortoise git and github.
